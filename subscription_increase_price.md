@@ -96,9 +96,9 @@ curl -X POST https://api.stripe.com/v1/subscriptions/{subscription_exposed_id} \
   -d proration_behavior="none"
 ```
 
-## Step 10: Get Customer
+## Step 10: Get Subscription
 
-Get Customer 1 to verify the new Price.
+Get Subscription 1 to verify the new Price.
 
 ```bash
 curl https://api.stripe.com/v1/subscriptions/{subscription_exposed_id} \
